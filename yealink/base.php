@@ -21,7 +21,7 @@ class endpoint_yealink_base extends endpoint_base {
 
         if (array_key_exists('timezone', $settings))
             $settings['timezone'] = $constants['timezone_lookup'][$settings['timezone']];
-	# many phone have got a timezone of "America/Los Angles" incorrectly due to 2600Hz 
+	# many phone have got a timezone of "America/Los Angles" due to defaults
 	# defaults .. we assume it should be NZ time
 	if (	$settings['timezone'] == "" || 
 		$settings['timezone'] == "-8" || 
