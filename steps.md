@@ -2,8 +2,6 @@ STEPS
 =====
 The following provisioning steps should be followed to create a new device on kazoo-provisioner.  In the example code provided we've used Yealink support for v7.2 code base.
 
-#Overview
-
 #General Request Flow
 The following general request flow occurs
 - a request comes in for a provisioning file
