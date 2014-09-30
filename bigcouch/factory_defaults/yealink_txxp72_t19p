@@ -1,0 +1,15 @@
+{
+   "_id": "yealink_txxp72_t19p",
+   "settings": {
+       "directed_pickup_code": "*80",
+       "admin_password": "nothinghere",
+       "firmware": {
+           "url": "http://xxxxxxxxx/firmware/yealink/t19p/",
+           "name": "31.72.0.20.rom"
+       }
+   },
+   "brand": "yealink",
+   "family": "txxp72",
+   "model": "t19p",
+   "pvt_type": "model"
+}
