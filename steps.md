@@ -66,12 +66,12 @@ T28   |	y000000000000.cfg
 T26   | y000000000004.cfg
 T22   | y000000000005.cfg
 T20   | y000000000007.cfg
-T-20P | y000000000007.cfg
-T19-P |	y000000000031.cfg
+T20P  | y000000000007.cfg
+T19P  |	y000000000031.cfg
 
 You can add specific configuration "stuff" in here applicable to each model (number of lines supported etc)
 
-Additionally we required the ability to upgrade the software remotely.  This is controlled by adding the following to the bigcouch document (we added to the specific factory_defaults file for the device, but can be more specific .
+Additionally we required the ability to upgrade the software remotely.  This is controlled by adding the following to the bigcouch document (we added to the specific factory_defaults file for the device, but can be more specific).
 ```
   "firmware": {
            "server_type": "http",
@@ -79,6 +79,8 @@ Additionally we required the ability to upgrade the software remotely.  This is 
            "name": "2.72.0.30.rom"
        },
 ```
+Don't forget to also place the software in the directory specified.
+
 #Warning
 The current implementation has a large number of security flaws.  Specifically:-
 - clear text files 
