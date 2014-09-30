@@ -1,0 +1,41 @@
+{
+    "t19p": {
+        "folder": "txxp72",
+        "config_files": [
+            "y000000000031.cfg",
+            "$mac.cfg",
+            "phonebook1.xml"
+        ],
+        "regexs": [
+            "/y000000000031.cfg$/i" ,
+            "/([0-9a-f]{12})\\.cfg$/i",
+            "/phonebook1\\.xml/i"
+        ]
+    },
+    "t28p": {
+        "folder": "txxp72",
+        "config_files": [
+            "y000000000000.cfg",
+            "$mac.cfg",
+            "phonebook1.xml"
+        ],
+        "regexs": [
+            "/y000000000000.cfg$/i" ,
+            "/([0-9a-f]{12})\\.cfg$/i",
+            "/phonebook1\\.xml/i"
+        ]
+    },
+    "t22p": {
+        "folder": "txxp72",
+        "config_files": [
+            "y000000000005.cfg",
+            "$mac.cfg",
+            "phonebook1.xml"
+        ],
+        "regexs": [
+            "/y000000000005.cfg$/i" ,
+            "/([0-9a-f]{12})\\.cfg$/i",
+            "/phonebook1\\.xml/i"
+        ]
+    }
+}
